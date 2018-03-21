@@ -1,0 +1,4 @@
+#Sun Nov 26 22:15:36 BRST 2017
+base.0=C\:\\Users\\Luis Guilherme\\Downloads\\iCult 3.20\\iCult\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

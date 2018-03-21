@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luisguilherme.icult.FragmentPesquisa">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoTVPesquisa"
+        android:layout_marginTop="@dimen/marginTopPadrao"
+        android:textAlignment="center"/>
+   
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupLocalidades">
+
+        <RadioButton
+            android:id="@+id/radioButtonPais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoRadioButtonPais" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoRadioButtonCidade" />
+    </RadioGroup>
+
+
+    <RelativeLayout
+        android:id="@+id/relativePesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearPesquisaCidade"
+            android:visibility="invisible">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/textoETEntradaCidadePesquisa"
+                android:id="@+id/entradaPesquisaCidade"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/botaoPesquisaCidade"
+                android:src="@drawable/ic_action_search"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearPesquisaPais"
+            android:visibility="invisible">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/textoETEntradaPais"
+                android:id="@+id/entradaPesquisaPais"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_search"
+                android:id="@+id/botaoPesquisaPais"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+     Aqui são mostradas as imagens da pesquisa
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewPesquisa">
+    </ListView>
+
+    <!--
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvPesquisa">
+
+
+    </android.support.v7.widget.RecyclerView>
+       -->
+
+</LinearLayout>

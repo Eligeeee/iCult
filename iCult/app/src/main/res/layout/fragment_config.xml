@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luisguilherme.icult.ConfigFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoTextViewConfig"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:layout_marginTop="8dp"
+            android:text=""
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:id="@+id/botaoAlteraEmail"
+            android:text="@string/textoBotaoAlteraEmail"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:id="@+id/botaoAlteraNome"
+            android:text="@string/textoBotaoAlteraEmail"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoSair"
+        android:text="@string/textoBotaoSair"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_gravity="bottom"
+        />
+
+    <TextView
+        android:id="@+id/textViewToSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Alterar senha" />
+
+
+
+
+</FrameLayout>

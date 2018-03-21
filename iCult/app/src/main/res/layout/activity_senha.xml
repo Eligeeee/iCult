@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearSenha"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luisguilherme.icult.SenhaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopPadrao"
+        android:text="@string/textoTVSenhaActivity"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entradaEmailRecupSenha"
+        android:hint="@string/entradaEmail"
+        android:layout_marginTop="@dimen/marginTopPadrao"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBotaoRecupSenha"
+        android:layout_marginTop="@dimen/marginTopPadrao"
+        android:id="@+id/botaoReset"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopPadrao"
+        android:id="@+id/tvVoltar"
+        android:text="@string/textoTVVoltar"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

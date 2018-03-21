@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1034657287382",
+    "firebase_url": "https://icult-c1a90.firebaseio.com",
+    "project_id": "icult-c1a90",
+    "storage_bucket": "icult-c1a90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034657287382:android:6ae0dfc821e8b634",
+        "android_client_info": {
+          "package_name": "com.example.luisguilherme.icult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034657287382-hhffo7063nm48aam7ih204irta4geh0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luisguilherme.icult",
+            "certificate_hash": "e9bc7a08927d63148a987f019b8cc3ec3eceb53b"
+          }
+        },
+        {
+          "client_id": "1034657287382-66r5slfn476kqip72mcf9rb4nfg4hsop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqE2jlyFx3AkpJw-S5JULnjHl-epOzgeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034657287382-66r5slfn476kqip72mcf9rb4nfg4hsop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
